@@ -1,0 +1,21 @@
+{
+    "name": "fumikito/genron-scraper",
+    "description": "Get list of genron sf school.",
+    "type": "library",
+    "require": {
+        "sunra/php-simple-html-dom-parser": "^1.5"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "fumikito",
+            "email": "guy@hametuha.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Genron\\Scraper": "src"
+        }
+    },
+    "minimum-stability": "stable"
+}
